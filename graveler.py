@@ -20,7 +20,7 @@ def simulate_rolls(rolls_per_worker):
 if __name__ == "__main__":
     start = timer()
 
-    total_rolls = int(1e9)
+    total_rolls = int(1e6)
     num_workers = cpu_count()
     print(num_workers)
     rolls_per_worker = total_rolls // num_workers
